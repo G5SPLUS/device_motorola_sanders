@@ -62,7 +62,7 @@ BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CONFIG := sanders_defconfig
-TARGET_KERNEL_SOURCE := /media/chris/a7579e71-5d7c-4c61-9e09-c2f12a6c5c2a/G5SPLUS/alize_potter
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 #
 # Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin
